@@ -60,7 +60,7 @@ def dennis_ritchies_language
      }
      lng = programmer_hash[:dennis_ritchie][:languages]
      lng.each do |i|
-      i 
+      return i 
     end
 end
 
