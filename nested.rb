@@ -58,8 +58,10 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-     lng = programmer_hash[:dennis_ritchie]
-     return lng[:languages].to_s
+     lng = programmer_hash[:dennis_ritchie][:languages]
+     lng.each do |i|
+      i 
+    end
 end
 
 def adding_matz
